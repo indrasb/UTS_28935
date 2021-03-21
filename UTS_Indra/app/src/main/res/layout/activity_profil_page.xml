@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/music" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" />
+
+
+        <TextView
+            style="@style/TextBlackTitle"
+            android:layout_marginRight="37dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Nim      : 00000028935" />
+
+        <TextView
+            style="@style/TextBlackTitle"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama  : Indra Prasetya Hadiwana" />
+
+        <TextView
+            style="@style/TextBlackTitle"
+            android:layout_marginRight="91dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Kelas   : FL" />
+
+    </LinearLayout>
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_title"
+                    style="@style/TextBlackTitle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Youtube :"
+                    style="@style/TextDescription"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.youtube.com/watch?v=fBOL8t6plRg"
+        style="@style/TextDescription"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.youtube.com/watch?v=tlOGecRQeOo"
+        style="@style/TextDescription"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.youtube.com/watch?v=2OqZkVZNfIg"
+        style="@style/TextDescription"/>
+</LinearLayout>
+
+
+
+

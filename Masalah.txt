@@ -1,0 +1,6 @@
+Error SDK not found
+masalahnya jika dijalankan di laptop lain selain milik saya akan error ini
+solusi nya mengganti di local.properties yang berad i di file uts_indra
+menganti nama indra hadiwana menjadi nama yang ada di user laptop
+
+maaf karena saya sudah mencari tahu dan mash belum bisa menemukan solusinya

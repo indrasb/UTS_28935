@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Indra</string>
+    <string name="full_name">Indra Prasetya Hadiwana</string>
+    <string name="back_to_home">Back to\nHome</string>
+    <string name="username_title">Username</string>
+    <string name="username">"Indra prasetya Hadiwana"</string>
+    <string name="phone_title">NIM</string>
+    <string name="phone">00000028934</string>
+    <string name="address_title">Kelas</string>
+    <string name="address">E-L</string>
+    <string name="email_title">Refrensi</string>
+    <string name="email">goldenperfecttv@gmail.com</string>
+</resources>
